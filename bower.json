@@ -4,7 +4,7 @@
     "boing6000 <boing6000@hotmail.com>"
   ],
   "description": "Directives, Services & Filters relacionados com Tabelas, listas, etc.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": [
     "dist/deco.packages.table.js",
     "dist/table.css"
@@ -24,7 +24,6 @@
   "dependencies": {
     "restangular": "~1.5.1",
     "angular-sanitize": "~1.4.5",
-    "angular-bootstrap": ">=1.1.2",
     "moment": "~2.10.3",
     "DecoHelper": "*",
     "angularUtils-pagination": "angular-utils-pagination#~0.9.1",
@@ -38,7 +37,8 @@
     "angular-cookies": "~1.4.5",
     "angular-ui-router": "~0.2.13",
     "bootstrap-sass-official": "^3.3.4",
-    "angular-ui-utils": "~0.2.3"
+    "angular-ui-utils": "~0.2.3",
+	"angular-bootstrap": ">=1.1.2",
   },
   "resolutions": {
     "angular": "1.4.5",
